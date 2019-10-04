@@ -28,6 +28,40 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
+/* HEADER SECTION STYLYING */
+header{
+    display:flex;
+    flex-direction:column;
+}
+
+/* NAVAGATION */
+.navdiv{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    display:flex;
+    width:60%;
+    justify-content: space-between;
+    align-items:center;
+}
+
+/* NAV FONT */
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.topnavpic{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 body {
 	line-height: 1;
 }
@@ -144,3 +178,16 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.middle-content .boxes .box:nth-of-type(1){ background: teal;}
+.middle-content .boxes .box:nth-of-type(2){ background: gold;
+}.middle-content .boxes .box:nth-of-type(3){ background: cadetblue;}
+.middle-content .boxes .box:nth-of-type(4){ background: coral;}
+.middle-content .boxes .box:nth-of-type(5){ background:crimson;}
+.middle-content .boxes .box:nth-of-type(6){ background: forestgreen;}
+.middle-content .boxes .box:nth-of-type(7){ background:darkorchid;}
+.middle-content .boxes .box:nth-of-type(8){ background: hotpink;}
+.middle-content .boxes .box:nth-of-type(9){ background:indigo;}
+.middle-content .boxes .box:nth-of-type(10){ background: dodgerblue;}
+
+

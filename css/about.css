@@ -1,0 +1,45 @@
+.abouttop{
+    border-bottom: 1px dashed black;
+
+}
+
+header{
+    display:flex;
+    flex-direction:column;
+}
+
+/* NAVAGATION */
+.headerdiv{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    display:flex;
+    width:60%;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.firstpic{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body{
+    max-width: 800px;
+    margin: 0 auto;
+    /* align-content: center */
+}
+
+.boxes{
+display:flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: space-between;
+
+}
+
+.topleftimg{
+    width:47%;
+}
